@@ -736,7 +736,7 @@ button:hover {
 
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 364px) {
 
     .content .col {
         margin-bottom: 80%;
@@ -904,7 +904,7 @@ button:hover {
 
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 364px) {
     .Education h2 {
         font-size: 30px;
         margin-top: 20%;
@@ -922,7 +922,7 @@ button:hover {
 
 /* =================== about ====================  */
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 364px) {
     .About h2 {
         font-size: 30px;
     }
@@ -946,7 +946,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 364px) {
     .Skills .row h2 {
         font-size: 30px;
     }
@@ -987,7 +987,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 364px) {
 
     .Contact .container h2 {
         font-size: 30px;
