@@ -736,7 +736,7 @@ button:hover {
 
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 367px) {
 
     .content .col {
         margin-bottom: 80%;
@@ -770,8 +770,8 @@ button:hover {
         margin: 25%;
         display: flex;
         float: left;
-        left: -3%;
-        bottom: 230%;
+        left: -6%;
+        bottom: 250%;
     }
 
     .home-soc {
