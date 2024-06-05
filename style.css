@@ -780,7 +780,7 @@ button:hover {
         width: 170px;
         display: flex;
         justify-content: space-between;
-        left: 28%;
+        left: 23%;
         top: 15%;
     }
 
@@ -811,7 +811,7 @@ button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 42%;
+        margin-left: 40%;
         top: 5%;
 
     }
