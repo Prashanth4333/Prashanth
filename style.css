@@ -769,7 +769,7 @@ button:hover {
     }
 
     .Home {
-        margin-top: 20%;
+        padding-top: 30%;
     }
 
     .Home p {
@@ -1012,10 +1012,14 @@ button:hover {
 
 }
 
-@media screen and (max-width: 377px) {
+@media (min-width: 357px) and (max-width: 377px) {
+    .Education {
+        margin-top: 10%;
+    }
+
     .Education h2 {
         font-size: 30px;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .Education p {
@@ -1030,7 +1034,11 @@ button:hover {
 
 /* =================== about ====================  */
 
-@media screen and (max-width: 377px) {
+@media (min-width: 357px) and (max-width: 377px) {
+    .About {
+        padding-top: 19%;
+    }
+
     .About h2 {
         font-size: 30px;
     }
@@ -1048,13 +1056,17 @@ button:hover {
     }
 }
 
-@media(main-width:568px) {
+@media(min-width:568px) {
     .container .row {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 376px) {
+@media (min-width: 357px) and (max-width: 376px) {
+    .Skills {
+        padding-top: 11%;
+    }
+
     .Skills .row h2 {
         font-size: 30px;
     }
@@ -1103,7 +1115,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media (min-width: 357px) and (max-width: 376px) {
 
     .Contact .container h2 {
         font-size: 30px;
