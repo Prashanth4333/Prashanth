@@ -1069,7 +1069,7 @@ button:hover {
     }
 }
 
-@media(min-width:568px) {
+@media(max-width:568px) {
     .container .row {
         flex-direction: column;
     }
