@@ -753,7 +753,7 @@ button:hover {
 
 }
 
-@media (min-width: 367px) and (max-width: 428px) {
+@media (min-width: 357px) and (max-width: 428px) {
 
     .content .col {
         margin-bottom: 80%;
@@ -792,7 +792,7 @@ button:hover {
         display: flex;
         float: left;
         left: -6%;
-        bottom: 240%;
+        bottom: 250%;
     }
 
     .home-soc {
