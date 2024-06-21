@@ -1027,6 +1027,19 @@ button:hover {
     }
 
     .Education .text-box::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        left: -29.8%;
+        top: 32px;
+        z-index: 10;
+        background-color: rgba(27, 136, 224);
+        border: 1px solid white;
+    }
+
+    .Education .text-box::before {
         left: -27.5%;
     }
 }
