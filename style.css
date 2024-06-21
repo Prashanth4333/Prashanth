@@ -49,8 +49,17 @@ header {
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 0px 30px rgba(33, 146, 199, 0.342);
+    border: 2px solid rgba(0, 0, 0, 0.18);
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 
 .navbar .name {
     list-style: none;
@@ -73,7 +82,6 @@ header {
     text-decoration: none;
     color: white;
     font-weight: 500;
-
     transition: 0.3s;
 }
 
@@ -86,7 +94,7 @@ header {
     flex-basis: 100%;
     flex-grow: 5;
     align-items: center;
-    /* background-color: #4caf50; */
+    /* background-color: #000000; */
 }
 
 .navbar-toggle {
@@ -101,6 +109,8 @@ button {
     height: 630px;
     display: flex;
     align-items: center;
+    position: relative;
+    margin-top: 3%;
     padding: 10%;
     /* background-color: green; */
 }
@@ -608,7 +618,11 @@ button {
 }
 
 button:hover {
-    background-color: rgb(34, 114, 180);
+    background-color: rgb(0, 0, 0);
+}
+
+.con-send:hover {
+    background-color: #1866a7;
 }
 
 .contact-info {
@@ -682,6 +696,7 @@ button:hover {
 @media screen and (max-width: 768px) {
     .Home {
         padding-bottom: 60%;
+        margin-top: 20%;
     }
 
     .content p {
@@ -738,7 +753,7 @@ button:hover {
 
 }
 
-@media screen and (max-width: 367px) {
+@media (min-width: 367px) and (max-width: 428px) {
 
     .content .col {
         margin-bottom: 80%;
@@ -751,6 +766,10 @@ button:hover {
         font-weight: 700;
         line-height: 1;
         text-align: center;
+    }
+
+    .Home {
+        margin-top: 20%;
     }
 
     .Home p {
@@ -773,7 +792,7 @@ button:hover {
         display: flex;
         float: left;
         left: -6%;
-        bottom: 250%;
+        bottom: 240%;
     }
 
     .home-soc {
@@ -833,6 +852,10 @@ button:hover {
         font-weight: 700;
         line-height: 1;
         text-align: center;
+    }
+
+    .Home {
+        margin-top: 20%;
     }
 
     .Home p {
@@ -1038,6 +1061,14 @@ button:hover {
 
     .Skills .col .sub-title h2 {
         font-size: 20px;
+    }
+
+    .subject {
+        font-size: 15px;
+    }
+
+    .progress-bar {
+        font-size: 15px;
     }
 
     .container .row {
