@@ -276,6 +276,11 @@ button {
     margin-top: 4%;
 }
 
+.down-cv button a{
+    color: white;
+    text-decoration-line: none;
+}
+
 .Education h2 {
     padding-top: 8%;
     font-size: 35px;
@@ -1145,4 +1150,34 @@ button:hover {
     .Contact p {
         font-size: 13px;
     }
+}
+
+/* =================== footer ====================  */
+
+@media (min-width: 357px) and (max-width: 428px){
+
+    .Copyright {
+        text-align: justify;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 12px;
+    }
+
+    .footer-iconTop a {
+        position: relative;
+        display: flex;
+        justify-content: right;
+        margin-right: 5%;
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .footer-iconTop a i {
+        font-size: 20px;
+        display: flex;
+        background: rgb(49, 148, 214);
+        border-radius: 30%;
+        text-decoration-line: none;
+    }
+    
 }
