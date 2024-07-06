@@ -57,8 +57,8 @@
     <section class="Home" id="Home">
         <div class="content row">
             <div class="col">
-                <h1>Hi, I'm <span class="con-name">Prashanth</span></h1>
-                <p>
+                <h1 class="animate">Hi, I'm <span class="con-name">Prashanth</span></h1>
+                <p class="animate">
                     I design and develop to provide users with an enjoyable and satisfying
                     interaction with digital products. I work with
                     Figma, HTML, CSS, JavaScript, Reactjs.
@@ -81,10 +81,10 @@
     <!-------------------------------------------      About    ---------------------------------------------------->
 
     <section class="About" id="About">
-        <h2>About <span class="A-me">Me</span></h2>
+        <h2 class="animate">About <span class="A-me">Me</span></h2>
 
         <div class="info">
-            <p>
+            <p class="animate">
                 My self Prashanth currently i'm pursuing my B.tech 3rd year 2nd
                 semister CSE (Computer Science Engineering). I am a aspirant in Web
                 development and a passion for a career in this role. Strong in design
@@ -112,7 +112,7 @@
     <!---------------------------------------------   Education   -------------------------------------------------->
 
     <section class="Education" id="Education">
-        <h2>Edu<span class="ed-name">cation</span></h2>
+        <h2 class="animate">Edu<span class="ed-name">cation</span></h2>
 
         <div class="timeline">
             <div class="container left-container">
@@ -151,7 +151,7 @@
     <section class="Skills" id="Skills">
         <div class="container">
             <div class="row">
-                <h2>Ski<span class="s-nam">lls</span></h2>
+                <h2 class="animate">Ski<span class="s-nam">lls</span></h2>
                 <section class="col">
                     <div class="sub-title">
                         <h2>Technincal Skills</h2>
@@ -205,8 +205,8 @@
                     <div class="skills-container">
                         <div class="skill">
                             <div class="subject">C</div>
-                            <div class="progress-bar" value="45%">
-                                <div class="progress-line" style="max-width: 45%"></div>
+                            <div class="progress-bar" value="40%">
+                                <div class="progress-line" style="max-width: 40%"></div>
                             </div>
                         </div>
 
@@ -219,8 +219,8 @@
 
                         <div class="skill">
                             <div class="subject">Java</div>
-                            <div class="progress-bar" value="40%">
-                                <div class="progress-line" style="max-width: 40%"></div>
+                            <div class="progress-bar" value="30%">
+                                <div class="progress-line" style="max-width: 30%"></div>
                             </div>
                         </div>
 
@@ -243,8 +243,8 @@
 
                         <div class="skill">
                             <div class="subject">Power Bi</div>
-                            <div class="progress-bar" value="55%">
-                                <div class="progress-line" style="max-width: 55%"></div>
+                            <div class="progress-bar" value="40%">
+                                <div class="progress-line" style="max-width: 40%"></div>
                             </div>
                         </div>
                     </div>
@@ -256,28 +256,82 @@
 
     <!------------------------------------------      Project    ---------------------------------------------------->
 
-    <!----  <section class="Project" id="Project">
+    <section class="Project" id="Project">
         <h2>Pro<span class="p-nam">jects</span></h2>
 
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+        <section class="cards">
+            <article class="card card--1">
+                <div class="card__info-hover">
+                    <path fill="#000000"
+                        d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                </div>
 
-    </section>  -->
+                </div>
+                <div class="card__img"></div>
+                <a href="https://prashanth4333.github.io/Choco-Fragola/" class="card_link">
+                    <div class="card__img--hover"></div>
+                </a>
+                <div class="card__info">
+                    <span class="card__category">Responsive Web Page</span>
+                    <h3 class="card__title">Choco Fragola</h3>
+                    <p>It is a Responsive Web Page. The technologies are used HTML, CSS.</p>
+                    <span class="card__by">Visit - <a href="https://prashanth4333.github.io/Choco-Fragola/"
+                            class="card__author" title="author">CHOCO FRAGOLA</a></span>
+                </div>
+            </article>
+
+
+            <article class="card card--2">
+                <div class="card__info-hover">
+                    <path fill="#000000"
+                        d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                </div>
+
+                </div>
+                <div class="card__img"></div>
+                <a href="#" class="card_link">
+                    <div class="card__img--hover"></div>
+                </a>
+                <div class="card__info">
+                    <span class="card__category"> Travel</span>
+                    <h3 class="card__title">Discover the sea</h3>
+                    <span class="card__by">by <a href="#" class="card__author" title="author">John Doe</a></span>
+                </div>
+            </article>
+
+
+            <article class="card card--1">
+                <div class="card__info-hover">
+                    <path fill="#000000"
+                        d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+                </div>
+
+                </div>
+                <div class="card__img"></div>
+                <a href="#" class="card_link">
+                    <div class="card__img--hover"></div>
+                </a>
+                <div class="card__info">
+                    <span class="card__category"> Recipe</span>
+                    <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+                    <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+                </div>
+            </article>
+
+
+
+        </section>
+
+    </section>
 
     <!------------------------------------------      Contact me    ---------------------------------------------------->
 
     <section class="Contact" id="Contact">
         <div class="container">
-            <h2>Contact<span class="cm-nam">Me</span></h2>
+            <h2 class="animate">Contact<span class="cm-nam">Me</span></h2>
             <div class="contact-wrapper">
                 <div class="contact-form">
-                    <h3>Send Us a Message</h3>
+                    <h3 class="animate">Send Us a Message</h3>
 
                     <form action="https://api.web3forms.com/submit" method="POST">
 
@@ -302,10 +356,10 @@
 
                 </div>
                 <div class="contact-info">
-                    <h3>"Contact-Info"></h3>
-                    <p><i class="fas fa-phone"></i>+91 9505693425</p>
-                    <p><i class="fas fa-envelope"></i>prashanthchittimalla2@gmail.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i>Hyderabad, Telangana</p>
+                    <h3 class="animate">"Contact-Info"></h3>
+                    <p class="animate"><i class="fas fa-phone"></i>+91 9505693425</p>
+                    <p class="animate"><i class="fas fa-envelope"></i>prashanthchittimalla2@gmail.com</p>
+                    <p class="animate"><i class="fas fa-map-marker-alt"></i>Hyderabad, Telangana</p>
                 </div>
             </div>
         </div>
@@ -327,7 +381,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!--- <script src="javascript.js"></script> ---->
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </body>
 
