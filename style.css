@@ -1203,7 +1203,7 @@ button:hover {
 
 /* =================== about ====================  */
 
-@media (min-width: 357px) and (max-width: 357px) {
+@media (min-width: 357px) and (max-width: 428px) {
     .About {
         padding-top: 19%;
     }
