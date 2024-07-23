@@ -474,7 +474,7 @@ button {
     top: 32px;
     z-index: 10;
     background-color: rgba(27, 136, 224);
-    border: 1px solid white;
+    border: 1px solid var(--secondary-color);
 }
 
 .right-container .text-box::before {
