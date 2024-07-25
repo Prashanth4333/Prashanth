@@ -731,6 +731,7 @@ textarea {
     padding: 12px;
     border-radius: 8px;
     background-color: #f8f9fa;
+    border: 0;
 }
 
 input:focus,
