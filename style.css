@@ -603,7 +603,7 @@ div.cards {
 div.card {
     background: transparent;
     display: inline-block;
-    margin: 25px;
+    margin: 8.5px;
     max-width: 300px;
     perspective: 1000;
     position: relative;
