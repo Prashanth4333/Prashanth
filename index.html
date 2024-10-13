@@ -530,7 +530,7 @@
             // Define a function to get the distance based on screen size
             function getDistance() {
                 if (window.innerWidth < 768) {
-                    return '8px'; // adjust the distance for small screens
+                    return '0'; // adjust the distance for small screens
                 } else {
                     return '50px'; // default distance for large screens
                 }
@@ -658,7 +658,9 @@
                     duration: 1500,
                     reset: true
                 });
-            }
+            }  
+
+           
 
             // Reveal elements on page load
             revealElements();
